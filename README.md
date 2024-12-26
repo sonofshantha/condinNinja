@@ -14,7 +14,10 @@ This is a simple stopwatch application built with HTML, CSS, and JavaScript. It 
 - **HTML**: For the structure of the stopwatch.
 - **CSS**: For styling the layout and user interface.
 - **JavaScript**: For the functionality and interaction of the stopwatch.
-
+  
+## Initial setup
+clone the repository
+use live server to launch HTML on Browser.s
 ## Installation
 
 1. Clone the repository:
