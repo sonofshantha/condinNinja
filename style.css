@@ -1,0 +1,98 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a gradient background for the page */
+body {
+    background: linear-gradient(135deg, #1e1f2c, #acaeae);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Container styling to center the stopwatch */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Styling the main title */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling the time display */
+#time {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button container for spacing */
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Start button styling */
+#startStopBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#startStopBtn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Reset button styling */
+#resetBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Button focus state for accessibility */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Media Query for responsiveness on small screens */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #time {
+        font-size: 3.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
