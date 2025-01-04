@@ -33,6 +33,7 @@ h1 {
     font-size: 5rem;
     font-weight: bold;
     letter-spacing: 3px;
+    color: antiquewhite;
     margin-bottom: 30px;
     padding: 20px 30px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -88,6 +89,7 @@ button:focus {
 
     #time {
         font-size: 3.5rem;
+        color: antiquewhite;
     }
 
     button {
